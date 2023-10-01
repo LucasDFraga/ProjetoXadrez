@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/922550027504898786/8548955833C7B98DED02175110E434D174DA6C99/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: #1a1e23;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(207,221,237,0.5);
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.board{
+    width: 400px;
+    margin: 20px auto;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+button:hover{
+    background-color: #434343;
+}
+
+.move-history{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100px;
+    width: 400px;
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+}
